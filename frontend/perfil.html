@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi perfil - Ciudad Activa</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="barra-superior">
+  <h1>Mi perfil</h1>
+</header>
+
+<main class="contenido">
+
+  <div class="cabecera-perfil">
+    <span class="avatar avatar-grande">CT</span>
+    <h2>Camila Torres</h2>
+    <small>camila.torres@correo.com</small>
+    <span class="saldo-grande">145</span>
+    <small>puntos disponibles</small>
+  </div>
+
+  <div class="resumen">
+    <div class="resumen-item">
+      <div class="resumen-numero">8</div>
+      <div class="resumen-texto">Aprobadas</div>
+    </div>
+    <div class="resumen-item">
+      <div class="resumen-numero">1</div>
+      <div class="resumen-texto">Pendientes</div>
+    </div>
+    <div class="resumen-item">
+      <div class="resumen-numero">2</div>
+      <div class="resumen-texto">Canjes</div>
+    </div>
+  </div>
+
+  <div class="seccion">
+    <h2>Historial de puntos</h2>
+    <ul class="lista">
+      <li>
+        <div class="lista-texto">
+          <strong>Limpieza de la Plaza San Martin</strong>
+          <small>12/09/2026</small>
+        </div>
+        <span class="lista-valor positivo">+15</span>
+      </li>
+      <li>
+        <div class="lista-texto">
+          <strong>Canje: Cafe gratis</strong>
+          <small>11/09/2026</small>
+        </div>
+        <span class="lista-valor negativo">-50</span>
+      </li>
+      <li>
+        <div class="lista-texto">
+          <strong>Reciclaje en punto verde</strong>
+          <small>08/09/2026</small>
+        </div>
+        <span class="lista-valor positivo">+10</span>
+      </li>
+      <li>
+        <div class="lista-texto">
+          <strong>Plantacion de arboles</strong>
+          <small>02/09/2026</small>
+        </div>
+        <span class="lista-valor positivo">+25</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="seccion">
+    <a class="boton boton-secundario boton-bloque" href="admin/pendientes.html">Panel de administracion</a>
+  </div>
+
+  <button class="boton boton-gris boton-bloque">Cerrar sesion</button>
+
+</main>
+
+<nav class="nav-inferior">
+  <a href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+    Inicio
+  </a>
+  <a href="mis-acciones.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v16H4z"></path><path d="M8 10h8M8 14h5"></path></svg>
+    Mis acciones
+  </a>
+  <a href="recompensas.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11h16v9H4z"></path><path d="M2 7h20v4H2z"></path><path d="M12 7v13"></path></svg>
+    Premios
+  </a>
+  <a class="activo" href="perfil.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg>
+    Perfil
+  </a>
+</nav>
+
+</body>
+</html>

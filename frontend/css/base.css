@@ -1,0 +1,40 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff4e8;
+  color: #3e2723;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+}
+
+small {
+  font-size: 13px;
+  color: #8d6e63;
+}
+
+strong {
+  font-weight: 600;
+}

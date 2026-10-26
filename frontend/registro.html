@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crear cuenta - Ciudad Activa</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<main class="pantalla-centrada">
+
+  <div class="logo">
+    <div class="logo-marca">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-7-10a7 7 0 0 1 14 0c0 5.5-7 10-7 10z"></path><circle cx="12" cy="11" r="2.5"></circle></svg>
+    </div>
+    <h1>Crear cuenta</h1>
+  </div>
+
+  <form action="index.html">
+    <div class="fila">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="campo">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label for="dni">DNI</label>
+      <input type="text" id="dni" name="dni" inputmode="numeric" required>
+    </div>
+
+    <div class="campo">
+      <label for="email">Correo electronico</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="campo">
+      <label for="password">Contrasena</label>
+      <input type="password" id="password" name="password" required>
+      <small class="campo-ayuda">Minimo 8 caracteres.</small>
+    </div>
+
+    <div class="campo">
+      <label for="password2">Repetir contrasena</label>
+      <input type="password" id="password2" name="password2" required>
+    </div>
+
+    <button type="submit" class="boton boton-primario boton-bloque">Crear cuenta</button>
+  </form>
+
+  <p class="enlace-pie">Ya tenes cuenta? <a href="login.html">Ingresar</a></p>
+
+</main>
+
+</body>
+</html>

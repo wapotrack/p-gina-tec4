@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recompensas - Ciudad Activa</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="barra-superior">
+  <h1>Recompensas</h1>
+  <span class="saldo">145 pts</span>
+</header>
+
+<main class="contenido">
+
+  <div class="aviso aviso-info">
+    Canjea tus puntos y presenta el codigo en el comercio adherido.
+  </div>
+
+  <div class="seccion">
+    <h2>Disponibles</h2>
+    <div class="grilla-recompensas">
+
+      <article class="recompensa">
+        <img src="assets/img/placeholder.jpg" alt="Cafe gratis">
+        <div class="recompensa-cuerpo">
+          <h3 class="recompensa-nombre">Cafe gratis</h3>
+          <small>Bar La Plaza</small>
+          <span class="recompensa-costo">50 pts</span>
+          <button class="boton boton-primario">Canjear</button>
+        </div>
+      </article>
+
+      <article class="recompensa">
+        <img src="assets/img/placeholder.jpg" alt="Descuento en libreria">
+        <div class="recompensa-cuerpo">
+          <h3 class="recompensa-nombre">20% de descuento</h3>
+          <small>Libreria Central</small>
+          <span class="recompensa-costo">80 pts</span>
+          <button class="boton boton-primario">Canjear</button>
+        </div>
+      </article>
+
+      <article class="recompensa">
+        <img src="assets/img/placeholder.jpg" alt="Pase de colectivo">
+        <div class="recompensa-cuerpo">
+          <h3 class="recompensa-nombre">Pase de colectivo semanal</h3>
+          <small>Transporte municipal</small>
+          <span class="recompensa-costo">100 pts</span>
+          <button class="boton boton-primario">Canjear</button>
+        </div>
+      </article>
+
+      <article class="recompensa">
+        <img src="assets/img/placeholder.jpg" alt="Entrada de museo">
+        <div class="recompensa-cuerpo">
+          <h3 class="recompensa-nombre">Entrada al museo municipal</h3>
+          <small>Museo de la Ciudad</small>
+          <span class="recompensa-costo">60 pts</span>
+          <button class="boton boton-primario">Canjear</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="seccion">
+    <h2>Te faltan puntos</h2>
+    <div class="grilla-recompensas">
+
+      <article class="recompensa recompensa-bloqueada">
+        <img src="assets/img/placeholder.jpg" alt="Entradas de cine">
+        <div class="recompensa-cuerpo">
+          <h3 class="recompensa-nombre">2x1 en entradas</h3>
+          <small>Cine Rex</small>
+          <span class="recompensa-costo">120 pts</span>
+          <button class="boton boton-gris" disabled>Faltan 0 pts</button>
+        </div>
+      </article>
+
+      <article class="recompensa recompensa-bloqueada">
+        <img src="assets/img/placeholder.jpg" alt="Bicicleta">
+        <div class="recompensa-cuerpo">
+          <h3 class="recompensa-nombre">Bicicleta urbana</h3>
+          <small>Municipalidad</small>
+          <span class="recompensa-costo">800 pts</span>
+          <button class="boton boton-gris" disabled>Faltan 655 pts</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <a class="boton boton-secundario boton-bloque" href="mis-canjes.html">Ver mis canjes</a>
+
+</main>
+
+<nav class="nav-inferior">
+  <a href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+    Inicio
+  </a>
+  <a href="mis-acciones.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v16H4z"></path><path d="M8 10h8M8 14h5"></path></svg>
+    Mis acciones
+  </a>
+  <a class="activo" href="recompensas.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11h16v9H4z"></path><path d="M2 7h20v4H2z"></path><path d="M12 7v13"></path></svg>
+    Premios
+  </a>
+  <a href="perfil.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg>
+    Perfil
+  </a>
+</nav>
+
+</body>
+</html>

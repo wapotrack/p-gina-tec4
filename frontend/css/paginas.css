@@ -1,0 +1,310 @@
+.logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.logo-marca {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 12px;
+  border-radius: 20px;
+  background-color: #e65100;
+  color: #ffffff;
+  text-align: center;
+  line-height: 72px;
+}
+
+.logo-marca svg {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #bf360c;
+}
+
+.enlace-pie {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.enlace-pie a {
+  color: #e65100;
+  font-weight: 600;
+}
+
+.cabecera-perfil {
+  padding: 24px;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.cabecera-perfil .avatar {
+  float: none;
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 8px;
+}
+
+.saldo-grande {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  color: #e65100;
+  line-height: 1.1;
+}
+
+.resumen {
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.resumen-item {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+  padding: 16px 8px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.resumen-item:last-child {
+  margin-right: 0;
+}
+
+.resumen-numero {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.resumen-texto {
+  font-size: 12px;
+  color: #8d6e63;
+}
+
+.grilla-recompensas {
+  overflow: hidden;
+}
+
+.recompensa {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.recompensa:nth-child(even) {
+  margin-right: 0;
+}
+
+.recompensa img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  background-color: #ffcc80;
+}
+
+.recompensa-cuerpo {
+  padding: 12px;
+}
+
+.recompensa-nombre {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.recompensa-costo {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #e65100;
+}
+
+.recompensa .boton {
+  min-height: 40px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.recompensa-bloqueada img,
+.recompensa-bloqueada .recompensa-nombre {
+  opacity: 0.5;
+}
+
+.codigo {
+  display: block;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: #fff3e0;
+  border: 1px dashed #e65100;
+  border-radius: 8px;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #bf360c;
+}
+
+.galeria {
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.galeria img,
+.galeria video {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 12px;
+}
+
+.detalle-dato {
+  overflow: hidden;
+  padding: 12px 0;
+  border-bottom: 1px solid #ffcc80;
+  font-size: 15px;
+}
+
+.detalle-dato:last-child {
+  border-bottom: none;
+}
+
+.detalle-dato span {
+  float: left;
+  color: #8d6e63;
+}
+
+.detalle-dato strong {
+  float: right;
+}
+
+.acciones-moderacion {
+  overflow: hidden;
+  padding: 16px;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-bottom: -16px;
+  background-color: #ffffff;
+  border-top: 1px solid #ffcc80;
+}
+
+.acciones-moderacion .boton {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.acciones-moderacion .boton:last-child {
+  margin-right: 0;
+}
+
+.contador {
+  display: inline-block;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 20px;
+  background-color: #c62828;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 22px;
+}
+
+.tabla {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.tabla th,
+.tabla td {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #ffcc80;
+}
+
+.tabla th {
+  background-color: #fff3e0;
+  color: #bf360c;
+  font-weight: 600;
+}
+
+.tabla tr:last-child td {
+  border-bottom: none;
+}
+
+.barra-dato {
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.barra-dato-nombre {
+  float: left;
+  width: 110px;
+  font-size: 14px;
+}
+
+.barra-dato-fondo {
+  float: left;
+  width: 55%;
+  height: 10px;
+  margin-top: 6px;
+  background-color: #ffcc80;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.barra-dato-relleno {
+  height: 100%;
+  background-color: #e65100;
+}
+
+.barra-dato strong {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .recompensa {
+    width: 31%;
+    margin-right: 3.5%;
+  }
+
+  .recompensa:nth-child(even) {
+    margin-right: 3.5%;
+  }
+
+  .recompensa:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .galeria img,
+  .galeria video {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .galeria img:nth-child(even),
+  .galeria video:nth-child(even) {
+    margin-right: 0;
+  }
+}

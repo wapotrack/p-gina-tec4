@@ -1,0 +1,110 @@
+.barra-superior {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  height: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #e65100;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.barra-superior h1 {
+  float: left;
+  line-height: 64px;
+}
+
+.barra-superior .volver {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-top: 12px;
+  margin-right: 8px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.barra-superior .saldo {
+  float: right;
+  margin-top: 18px;
+  padding: 4px 12px;
+  background-color: #bf360c;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contenido {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+  padding-bottom: 96px;
+}
+
+.seccion {
+  margin-bottom: 24px;
+}
+
+.nav-inferior {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-top: 1px solid #ffcc80;
+}
+
+.nav-inferior a {
+  display: block;
+  float: left;
+  width: 25%;
+  min-height: 60px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  color: #8d6e63;
+  text-align: center;
+}
+
+.nav-inferior a.activo {
+  color: #e65100;
+  font-weight: 600;
+}
+
+.nav-inferior svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin: 0 auto 4px;
+}
+
+.pantalla-centrada {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 80px 24px 24px;
+}
+
+.fila {
+  overflow: hidden;
+}
+
+.fila .campo {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.fila .campo:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .contenido {
+    padding: 24px;
+    padding-bottom: 96px;
+  }
+}

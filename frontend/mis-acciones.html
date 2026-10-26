@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis acciones - Ciudad Activa</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="barra-superior">
+  <h1>Mis acciones</h1>
+  <span class="saldo">145 pts</span>
+</header>
+
+<main class="contenido">
+
+  <nav class="filtros">
+    <button class="filtro activo">Todas</button>
+    <button class="filtro">Pendientes</button>
+    <button class="filtro">Aprobadas</button>
+    <button class="filtro">Rechazadas</button>
+  </nav>
+
+  <article class="tarjeta">
+    <div class="tarjeta-cuerpo">
+      <span class="etiqueta etiqueta-pendiente">Pendiente</span>
+      <h2 class="tarjeta-titulo">Limpieza del cantero de Rivadavia</h2>
+      <p>Saque los yuyos y junte los residuos del cantero central.</p>
+      <div class="tarjeta-meta">
+        <span class="etiqueta etiqueta-categoria">Limpieza</span>
+        <span>Publicada hoy 09:40</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="tarjeta">
+    <div class="tarjeta-cuerpo">
+      <span class="etiqueta etiqueta-aprobada">Aprobada</span>
+      <h2 class="tarjeta-titulo">Limpieza de la Plaza San Martin</h2>
+      <p>Juntamos doce bolsas de residuos con un grupo de vecinos.</p>
+      <div class="tarjeta-meta">
+        <span class="etiqueta etiqueta-categoria">Limpieza</span>
+        <span>Revisada el 10/09</span>
+      </div>
+    </div>
+    <div class="tarjeta-pie">
+      <small>Puntos acreditados</small>
+      <span class="puntos">+15 pts</span>
+    </div>
+  </article>
+
+  <article class="tarjeta">
+    <div class="tarjeta-cuerpo">
+      <span class="etiqueta etiqueta-rechazada">Rechazada</span>
+      <h2 class="tarjeta-titulo">Pintura del muro de la esquina</h2>
+      <p>Pinte el muro de Lavalle y Sarmiento.</p>
+      <div class="aviso aviso-error">
+        Motivo: el mural no cuenta con autorizacion municipal.
+      </div>
+      <div class="tarjeta-meta">
+        <span class="etiqueta etiqueta-categoria">Mural</span>
+        <span>Revisada el 05/09</span>
+      </div>
+    </div>
+  </article>
+
+</main>
+
+<a class="boton-flotante" href="nueva-accion.html" aria-label="Publicar accion">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"></path></svg>
+</a>
+
+<nav class="nav-inferior">
+  <a href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+    Inicio
+  </a>
+  <a class="activo" href="mis-acciones.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v16H4z"></path><path d="M8 10h8M8 14h5"></path></svg>
+    Mis acciones
+  </a>
+  <a href="recompensas.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11h16v9H4z"></path><path d="M2 7h20v4H2z"></path><path d="M12 7v13"></path></svg>
+    Premios
+  </a>
+  <a href="perfil.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg>
+    Perfil
+  </a>
+</nav>
+
+</body>
+</html>

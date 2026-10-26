@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nueva accion - Ciudad Activa</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="barra-superior">
+  <a class="volver" href="index.html" aria-label="Volver">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M15 6l-6 6 6 6"></path></svg>
+  </a>
+  <h1>Nueva accion</h1>
+</header>
+
+<main class="contenido">
+
+  <div class="aviso aviso-info">
+    Tu publicacion queda pendiente hasta que un administrador la revise.
+  </div>
+
+  <form action="mis-acciones.html">
+
+    <div class="campo">
+      <label for="titulo">Titulo</label>
+      <input type="text" id="titulo" name="titulo" maxlength="120" placeholder="Limpieza de la Plaza San Martin" required>
+    </div>
+
+    <div class="campo">
+      <label for="categoria">Categoria</label>
+      <select id="categoria" name="categoria" required>
+        <option value="">Elegi una categoria</option>
+        <option value="1">Limpieza</option>
+        <option value="2">Reciclaje</option>
+        <option value="3">Arbolado</option>
+        <option value="4">Mantenimiento</option>
+        <option value="5">Mural</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <label for="descripcion">Descripcion</label>
+      <textarea id="descripcion" name="descripcion" placeholder="Conta que hiciste, cuando y con quien" required></textarea>
+    </div>
+
+    <div class="campo">
+      <label for="direccion">Direccion</label>
+      <input type="text" id="direccion" name="direccion" placeholder="Av. Mitre 850">
+      <small class="campo-ayuda">Indica lo mas preciso posible donde fue.</small>
+    </div>
+
+    <div class="campo">
+      <label for="evidencias">Pruebas</label>
+      <label class="subida" for="evidencias">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 16V4"></path><path d="M7 9l5-5 5 5"></path><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"></path></svg>
+        <strong>Sacar foto o elegir archivo</strong>
+        <small>Hasta 3 archivos. Imagenes 5 MB, videos 25 MB.</small>
+      </label>
+      <input type="file" id="evidencias" name="evidencias" accept="image/*,video/*" multiple hidden>
+
+      <div class="previsualizacion">
+        <img src="assets/img/placeholder.jpg" alt="Prueba 1">
+        <img src="assets/img/placeholder.jpg" alt="Prueba 2">
+      </div>
+    </div>
+
+    <button type="submit" class="boton boton-primario boton-bloque">Publicar accion</button>
+
+  </form>
+
+</main>
+
+<nav class="nav-inferior">
+  <a href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+    Inicio
+  </a>
+  <a href="mis-acciones.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v16H4z"></path><path d="M8 10h8M8 14h5"></path></svg>
+    Mis acciones
+  </a>
+  <a href="recompensas.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11h16v9H4z"></path><path d="M2 7h20v4H2z"></path><path d="M12 7v13"></path></svg>
+    Premios
+  </a>
+  <a href="perfil.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg>
+    Perfil
+  </a>
+</nav>
+
+</body>
+</html>

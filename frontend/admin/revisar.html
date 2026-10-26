@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revisar accion - Administracion</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<header class="barra-superior">
+  <a class="volver" href="pendientes.html" aria-label="Volver">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M15 6l-6 6 6 6"></path></svg>
+  </a>
+  <h1>Revisar accion</h1>
+</header>
+
+<main class="contenido">
+
+  <div class="galeria">
+    <img src="../assets/img/placeholder.jpg" alt="Prueba 1">
+    <img src="../assets/img/placeholder.jpg" alt="Prueba 2">
+  </div>
+
+  <div class="tarjeta">
+    <div class="tarjeta-cuerpo">
+      <h2 class="tarjeta-titulo">Limpieza del cantero de Rivadavia</h2>
+      <p>Saque los yuyos y junte los residuos del cantero central entre las calles Rivadavia y Alsina.</p>
+    </div>
+    <div class="tarjeta-pie">
+      <div class="autor">
+        <span class="avatar">CT</span>
+        <div>
+          <strong>Camila Torres</strong>
+          <small>8 acciones aprobadas</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tarjeta">
+    <div class="tarjeta-cuerpo">
+      <div class="detalle-dato"><span>Categoria</span><strong>Limpieza</strong></div>
+      <div class="detalle-dato"><span>Direccion</span><strong>Rivadavia 430</strong></div>
+      <div class="detalle-dato"><span>Publicada</span><strong>14/09/2026 09:40</strong></div>
+      <div class="detalle-dato"><span>Acciones hoy</span><strong>1 de 3</strong></div>
+    </div>
+  </div>
+
+  <div class="campo">
+    <label for="puntos">Puntos a otorgar</label>
+    <input type="number" id="puntos" name="puntos" value="15" min="5" max="100">
+    <small class="campo-ayuda">Sugerido para Limpieza: 15 puntos.</small>
+  </div>
+
+  <div class="campo">
+    <label for="motivo">Motivo de rechazo</label>
+    <textarea id="motivo" name="motivo" placeholder="Completar solo si se rechaza"></textarea>
+  </div>
+
+  <div class="acciones-moderacion">
+    <button class="boton boton-peligro">Rechazar</button>
+    <button class="boton boton-primario">Aprobar</button>
+  </div>
+
+</main>
+
+</body>
+</html>

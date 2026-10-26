@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recompensas - Administracion</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<header class="barra-superior">
+  <a class="volver" href="pendientes.html" aria-label="Volver">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M15 6l-6 6 6 6"></path></svg>
+  </a>
+  <h1>Recompensas</h1>
+</header>
+
+<main class="contenido">
+
+  <div class="seccion">
+    <h2>Cargar nueva</h2>
+    <form action="recompensas.html">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="2x1 en entradas" required>
+      </div>
+      <div class="campo">
+        <label for="comercio">Comercio</label>
+        <input type="text" id="comercio" name="comercio" placeholder="Cine Rex" required>
+      </div>
+      <div class="fila">
+        <div class="campo">
+          <label for="costo">Costo en puntos</label>
+          <input type="number" id="costo" name="costo" min="1" required>
+        </div>
+        <div class="campo">
+          <label for="stock">Stock</label>
+          <input type="number" id="stock" name="stock" min="0" required>
+        </div>
+      </div>
+      <button type="submit" class="boton boton-primario boton-bloque">Guardar recompensa</button>
+    </form>
+  </div>
+
+  <div class="seccion">
+    <h2>Cargadas</h2>
+    <div class="tabla">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Costo</th>
+            <th>Stock</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2x1 en entradas</td>
+            <td>120</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>20% de descuento</td>
+            <td>80</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>Cafe gratis</td>
+            <td>50</td>
+            <td>96</td>
+          </tr>
+          <tr>
+            <td>Pase de colectivo</td>
+            <td>100</td>
+            <td>12</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<nav class="nav-inferior">
+  <a href="pendientes.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v16H4z"></path><path d="M8 10h8M8 14h5"></path></svg>
+    Pendientes
+  </a>
+  <a class="activo" href="recompensas.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11h16v9H4z"></path><path d="M2 7h20v4H2z"></path><path d="M12 7v13"></path></svg>
+    Premios
+  </a>
+  <a href="dashboard.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path></svg>
+    Datos
+  </a>
+  <a href="../index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+    Salir
+  </a>
+</nav>
+
+</body>
+</html>
